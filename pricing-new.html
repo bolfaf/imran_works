@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tarifs clairs en dirham marocain pour la création et la mise à jour de sites web professionnels." />
+    <title>التسعير | Imran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="pricing">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a href="index.html" class="brand">Imran</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html" data-nav="home" data-i18n="nav.home">الرئيسية</a>
+          <a href="services.html" data-nav="services" data-i18n="nav.services">الخدمات</a>
+          <a href="demos.html" data-nav="demos" data-i18n="nav.demos">العروض</a>
+          <a href="pricing.html" data-nav="pricing" data-i18n="nav.pricing">التسعير</a>
+          <a href="faq.html" data-nav="faq" data-i18n="nav.faq">الأسئلة الشائعة</a>
+        </nav>
+        <div class="lang-switch" aria-label="Language switcher">
+          <button class="lang-btn active" type="button" data-lang="ar" aria-pressed="true">العربية</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">Français</button>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <div class="container">
+          <span class="section-kicker" data-i18n="pricing.kicker">التسعير</span>
+          <h1 data-i18n="pricing.page.title">باقات تناسب مختلف مستويات المشاريع.</h1>
+          <p class="lead" data-i18n="pricing.page.text">لا توجد قيمة ثابتة واحدة تلائم جميع المشاريع. يتم تقسيم العمل على أساس النشاط، مستوى التخصيص، وأهداف المشروع التجارية.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="pricing-grid" data-pricing-grid></div>
+          <div class="info-blocks">
+            <div class="tiny-card">
+              <h4 data-i18n="pricing.domain.title">النطاق</h4>
+              <p data-i18n="pricing.domain.text">يُشمل في الباقات 1499 MAD و2499 MAD، بينما لا يشمل في الباقتين الأقل.</p>
+            </div>
+            <div class="tiny-card">
+              <h4 data-i18n="pricing.hosting.title">الاستضافة</h4>
+              <p data-i18n="pricing.hosting.text">الاستضافة مشمولة في جميع الباقات، مع تركيز على البنية الأساسية للموقع وتهيئته للاستخدام.</p>
+            </div>
+            <div class="tiny-card">
+              <h4 data-i18n="pricing.revisions.title">التعديلات</h4>
+              <p data-i18n="pricing.revisions.text">تختلف عدد التعديلات حسب الباقة، بحيث تكون مناسبة للمشاريع الصغيرة والمتوسطة وحتى المشاريع الأكبر.</p>
+            </div>
+            <div class="tiny-card">
+              <h4 data-i18n="pricing.manual.title">الدفع</h4>
+              <p data-i18n="pricing.manual.text">الدفع يدويًا، مع الاتفاق المباشر قبل التنفيذ. لا توجد بوابة دفع داخل الموقع.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.text">Imran — تصميم وتطوير مواقع مناسبة للمشاريع التجارية.</p>
+        <div class="footer-links">
+          <a href="demos.html" data-i18n="nav.demos">العروض</a>
+          <a href="faq.html" data-i18n="nav.faq">الأسئلة الشائعة</a>
+          <a class="footer-wa" href="https://wa.me/212608814717" target="_blank" rel="noreferrer" data-whatsapp-link="true" data-i18n="footer.whatsapp">تواصل عبر واتساب</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+  </body>
+</html>

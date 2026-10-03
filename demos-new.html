@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Démos de sites web pour restaurants, hôtels, salons, pharmacie, surf et autres activités commerciales." />
+    <title>العروض | Imran</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="js/config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body data-page="demos">
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a href="index.html" class="brand">Imran</a>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html" data-nav="home" data-i18n="nav.home">الرئيسية</a>
+          <a href="services.html" data-nav="services" data-i18n="nav.services">الخدمات</a>
+          <a href="demos.html" data-nav="demos" data-i18n="nav.demos">العروض</a>
+          <a href="pricing.html" data-nav="pricing" data-i18n="nav.pricing">التسعير</a>
+          <a href="faq.html" data-nav="faq" data-i18n="nav.faq">الأسئلة الشائعة</a>
+        </nav>
+        <div class="lang-switch" aria-label="Language switcher">
+          <button class="lang-btn active" type="button" data-lang="ar" aria-pressed="true">العربية</button>
+          <span class="lang-divider">|</span>
+          <button class="lang-btn" type="button" data-lang="fr" aria-pressed="false">Français</button>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="page-hero">
+        <div class="container">
+          <span class="section-kicker" data-i18n="demos.kicker">العروض</span>
+          <h1 data-i18n="demos.page.title">معاينة مواقع جاهزة حسب أنواع الأنشطة.</h1>
+          <p class="lead" data-i18n="demos.page.text">تجميع لأفضل النماذج التي تم تصميمها بعناية لتناسب الاحتياجات التجميلية والتجارية والوظيفية لكل قطاع.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="demo-grid" data-demo-grid></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p data-i18n="footer.text">Imran — تصميم وتطوير مواقع مناسبة للمشاريع التجارية.</p>
+        <div class="footer-links">
+          <a href="pricing.html" data-i18n="nav.pricing">التسعير</a>
+          <a href="faq.html" data-i18n="nav.faq">الأسئلة الشائعة</a>
+          <a class="footer-wa" href="https://wa.me/212608814717" target="_blank" rel="noreferrer" data-whatsapp-link="true" data-i18n="footer.whatsapp">تواصل عبر واتساب</a>
+        </div>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" aria-live="polite"></div>
+  </body>
+</html>
